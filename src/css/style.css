@@ -1,0 +1,16 @@
+#board_box {
+    width: 600px; 
+    margin: auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+}
+.cell {
+    width: 140px; 
+    height: 140px; 
+    border: 5px solid #69cee7; 
+    box-sizing: border-box; 
+    margin: 5px; 
+    padding-top: 7px; 
+    text-align: center;
+}
