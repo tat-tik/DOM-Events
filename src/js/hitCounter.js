@@ -1,6 +1,6 @@
 import goblin from '../img/goblin.png';
 import Board from './board';
-import cursors from './cursors';
+import cursor from './cursor';
 
 export default class HitCounter {
   constructor(board) {
@@ -19,9 +19,9 @@ export default class HitCounter {
 
         if (imgInCell) {
           this.board.setHitNumber(Number.parseInt(this.board.getHitNumber(), 10) + 1);
-          this.board.setCursor(cursors.hammer);
+          this.board.setCursor(cursor.hammer);
           imgInCell.remove();
-          setTimeout(() => this.board.setCursor(cursors.auto), 200);
+          setTimeout(() => this.board.setCursor(cursor.auto), 200);
         }
       });
     });
