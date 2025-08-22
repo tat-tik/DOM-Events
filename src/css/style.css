@@ -46,7 +46,7 @@
 }
 
 .hit-counter {
-  color: green;
+  color: rgb(23, 0, 128);
 }
 .miss-counter {
   color: red;
